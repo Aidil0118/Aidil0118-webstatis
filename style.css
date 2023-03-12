@@ -1,0 +1,67 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.wrepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 57, 152);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    font-size: 1,5em;
+    padding: 15px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.brand div a {
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.brand div :active a:hover {
+    color: aqua;
+    transition: all.4s ease-in-out
+}
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigator > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigator> li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigator > li > a:hover {
+    color: aqua;
+    transition: all.4s ease-in-out
+}
+
+.navigator > li > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.navigator > li > img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all.4s ease-in-out
+}
